@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Meu quiz</title>
+</head>
+<body>
+    <!-- Top Section -->
+
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-2 fw-bold mt-4">Meu Quiz</h2>
+            <p class="text-grey fs-4 ml-2">Será que você me conhece?</p>
+        </div>
+    </div>
+
+    <!-- Results -->
+
+    <div class="resultDiv intro py-3 bg-white d-none text-center">
+        <div class="container lead">
+            <p>Você me conhece <span class="percentage text-primary display-4 p3">0%</span> no momento.</p>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">Vamos às perguntas!</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. Qual o meu sobrenome?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">Gianfranco</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">Adalberto</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C">
+                        <label class="form-check-label">Watanabe</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. Que dia eu Nasci?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">19</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">15</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C">
+                        <label class="form-check-label">9</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Quantos anos eu tenho?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">19</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">29</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C">
+                        <label class="form-check-label">27</label>
+                    </div>
+                    <div class="my-5">
+                        <p class="lead font-weight-normal">4. Qual o nome da minha calopsita?</p>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q4" value="A" checked>
+                            <label class="form-check-label">Jonathan</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q4" value="B">
+                            <label class="form-check-label">Elvis</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q4" value="C">
+                            <label class="form-check-label">Naruto</label>
+                        </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light btn-lg">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
